@@ -1,0 +1,3 @@
+create jar with jar cf **/*.class (?)
+list jar contents with jar tf file.jar
+find out mangled names with CLASSPATH=file.jar javap  -c org/whatnot/MyClass

@@ -1,0 +1,3 @@
+-I /usr/lib/jvm/java-10-openjdk/include/linux
+-I /usr/lib/jvm/java-10-openjdk/include/
+-I /usr/lib/jvm/java-10-openjdk/include/darwin

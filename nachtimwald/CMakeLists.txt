@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.11)
+link_directories ("/usr/lib/jvm/java-10-openjdk/lib/jli" "/usr/lib/jvm/java-10-openjdk/lib/server" "/usr/lib/jvm/java-10-openjdk/jre/lib/jli" "/usr/lib/jvm/java-10-openjdk/jre/lib/server")
+include_directories ("/usr/lib/jvm/java-10-openjdk/include/linux" "/usr/lib/jvm/java-10-openjdk/include" "/usr/lib/jvm/java-10-openjdk/include/darwin")
+add_executable (hello_world hello_world.c)
+target_link_libraries (hello_world jli jvm)
